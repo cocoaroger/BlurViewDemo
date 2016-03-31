@@ -15,6 +15,7 @@
 		DB7C4A491CACD01200787611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7C4A471CACD01200787611 /* LaunchScreen.storyboard */; };
 		DB7C4A531CACD4A000787611 /* UIImage+RGBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7C4A521CACD4A000787611 /* UIImage+RGBlur.m */; };
 		DB7C4A561CACD65900787611 /* RGLiveBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7C4A551CACD65900787611 /* RGLiveBlurView.m */; };
+		DB7C4A5C1CACFFF200787611 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DB7C4A5B1CACFFF200787611 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		DB7C4A521CACD4A000787611 /* UIImage+RGBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RGBlur.m"; sourceTree = "<group>"; };
 		DB7C4A541CACD65900787611 /* RGLiveBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGLiveBlurView.h; sourceTree = "<group>"; };
 		DB7C4A551CACD65900787611 /* RGLiveBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGLiveBlurView.m; sourceTree = "<group>"; };
+		DB7C4A5B1CACFFF200787611 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		DB7C4A381CACD01200787611 /* BlurViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DB7C4A5B1CACFFF200787611 /* README.md */,
 				DB7C4A501CACD43500787611 /* RGLiveBlurView */,
 				DB7C4A3C1CACD01200787611 /* AppDelegate.h */,
 				DB7C4A3D1CACD01200787611 /* AppDelegate.m */,
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7C4A5C1CACFFF200787611 /* README.md in Sources */,
 				DB7C4A411CACD01200787611 /* ViewController.m in Sources */,
 				DB7C4A531CACD4A000787611 /* UIImage+RGBlur.m in Sources */,
 				DB7C4A3E1CACD01200787611 /* AppDelegate.m in Sources */,
@@ -320,6 +324,7 @@
 				DB7C4A4F1CACD01200787611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
